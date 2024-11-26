@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css/style.css">
+    <link rel="stylesheet" href="css/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>bootstrap and sass</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- navbar section start -->
+    <header class="wrapper_header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  text-center ">
+            
+            <div class="container">
+                <img class="img" src="images/logo-light.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  text-center " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center  minnav">
+                  <li class="nav-item dropdown   text-center">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Demos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Projects
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Blocks
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Documentation
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                 
+                </ul>
+                <ul class="navbar-nav ">
+                    <li class="nav-item dropdown toggele navmin" >
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           
+                         EN
+                     
+                        </a>
+                        <span> <li class="nav-item dropdown ">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              
+                                <i class="fa-solid fa-circle-info" id="navicon"></i>
+                            
+                               </a>
+                        </li></span>
+                       
+                     
+                   
+                        <ul class="dropdown-menu ">
+                          
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- navbar section end -->
+    <section id="home">
+        <div class="Banner_wrapper wrapper">
+            <div class="container-lg">
+                <div class="row align-items-center order-1 mb-mb-0 mb-5 pt-5">
+                    <div class="col-md-6 ">
+                        <div class="top-right-img">
+                            <div class="animate-img">
+                                <img class="img-fluid" src="images/i2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-2 order-1 mb-mb-0 mb-5 mt-4 ">
+                        <div class="Banner-text ">
+                            <h1 >Grow Your Business with Our Solutions.</h1>
+                            <p class="first" >We help our clients to increase their website traffic, rankings and visibility in search
+                                results</p>
+                                <button class="button01 mt-4"><span>Explore Now</span></button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row justify-content-md-center mb-mb-0 ">
+                    <div class=" d-grid gap-6 col-md-8 offest-md-3 ">
+                        <div class="section_heading text-center mt-4">
+                            <h2 class="mt-3">What We DO</h2>
+                            <h3 class="mt-3">The service we offer is specifically designed to meet your needs.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 g-4 pt-5">
+                    <div class="col mt-4">
+                        <div class="card  text-center  pt-4">
+                            <div class="card-body ">
+                                <i class="fa-solid fa-magnifying-glass-chart" ></i>
+                                <h5 class="mt-4">SEO Services</h5>
+                                <p class="text-intro  text-center  ">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo. 
+                                  </p>
+                                  <div class="col-md-12 pt-4">
+                                    <a class="read" href="#"><span class="card-one">Read More</span>
+                                        <span><i class="fa-solid fa-arrow-right" id="read-one"></i></span>
+                                    </a>
+                                  </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card  text-center pt-4">
+                            <div class="card-body">
+                                <i class="fa-solid fa-web-awesome" id="fa-brands"></i>
+                                <h5 class="mt-4" >Web Design</h5>
+                                <p  class="text-intro ">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+                                <div class="col-md-12 pt-4">
+                                    <a class="read" href="#"><span class="card-two">Read More</span>
+                                   
+                                        <span><i class="fa-solid fa-arrow-right" id="read-two"></i></span>
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card  text-center pt-4">
+                            <div class="card-body">
+                                <i class="fa-solid fa-inbox" id="fa-brands"></i>
+                                <h5 class="mt-4">Social Engagement</h5>
+                                <p class="text-intro ">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+                                <div class="col-md-12 pt-4">
+                                    <a class="read" href="#"><span class="card-three">Read More</span>
+                                   
+                                        <span><i class="fa-solid fa-arrow-right" id="read-three"></i></span>
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center pt-4">
+                            <div class="card-body">
+                                <i class="fa-solid fa-award" id="fa-brands"></i>
+                                <h5 class="mt-4">Network Security</h5>
+                                <p class="text-intro " >Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+                                <div class="col-md-12 pt-4">
+                                    <a class="read" href="#"><span class="card-four">Read More</span>
+                                        <span><i class="fa-solid fa-arrow-right" id="read-icon"></i></span>
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="wrapper">
+            <div class="container mb-mb-0 mb-5 ">
+                <div class="row mb-mb-0 mb-6   ">
+                    <div class="col-md-5 ">
+                         <h2>Analyze Now</h2>
+                        <h3 class=" mt-4 ">Wonder how much faster your website can go? Easily check your SEO Score now.</h3>
+                        <p class="mt-4" >Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
+                            justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel
+                            scelerisque nisl consectetur et.</p>
+                            <div class="col-md-7 mt-5">
+                                <div class="  input-group input-group-lg">
+                                    <input class="form-control icon-link-hover form-control-lg" type="text"
+                                        placeholder="Enter website url" aria-label=".form-control-lg example">
+                                    <span class="btn btn-warning text-white" id="inputGroup-sizing-lg">Join</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-7  mt-3">
+                        <figure class="figure">
+                            <img src="images/i3.png" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row  mb-mb-0 mb-5">
+                    <div class="col-md-6 ">
+                        <h2 >Our Strategy</h2>
+                        <h3  class="lh-sm ">Here are 3 working steps to organize our business projects.</h3>
+                        <p class="lh-base mt-5">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis. </p>
+                        <p class="lh-base">Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis
+                            euismod semper. Aenean lacinia bibendum nulla sed consectetur.</p>
+                            <button class="button01 mt-4"><span>Learn More</span></button> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card shadow-none p-3 mb-5 bg-body-tertiary rounded">
+                                  <img src="images/img-1.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Coriss Ambady</h5>
+                                    <p class="card-text">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  ”</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card shadow-none p-3 mb-5 bg-body-tertiary rounded">
+                                  <img src="images/img-2.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Nikolas Brooten</h5>
+                                    <p class="card-text">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="wrapper">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-6">
+                        <img src="images/i6.png" class="figure-img img-fluid rounded" alt="">
+                       
+                    </div>
+                    <div class="col-md-6 intro">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <h2>Why Choose Us?</h2>
+                                <h3>We bring solutions to make life easier for our clients.</h3>
+                            </div>
+                            <div class="accordionItem mt-5">
+                                <h4 class="accordionTitle mt-3">
+                                   Professional Desgin</h2>
+                                <div class="accordionContent">
+                                  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</4>
+                                </div>
+                              </div>
+                          
+                              <div class="accordionItem">
+                                <h4 class="accordionTitle mt-3">Top-Notch support</h4>
+                                <div class="accordionContent">
+                                  <p>
+                                    Why Choose Us?
+                                    We bring solutions to make life easier for our clients.
+                                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                                </div>
+                              </div>
+                          
+                              <div class="accordionItem">
+                                <h4 class="accordionTitle mt-3">Header and  Slider option</h4>
+                                <div class="accordionContent">
+                                  <p>
+                                    Why Choose Us?
+                                    We bring solutions to make life easier for our clients.
+                                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section id="home">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row justify-content-md-center ">
+                    <div class="d-grid gap-3 col-md-7 offest-md-3 ">
+                        <div class=" section_heading text-center ">
+                            <h2>Our Team</h2>
+                            <h3>Think unique and be innovative. Make a difference with Sandbox.</h3>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-4 g-3 mt-4">
+                        <div class="col">
+                            <div class="card shadow-none p-2 mb-5 bg-body-tertiary rounded ">
+                                <div class="card-body ">
+                                    <figure class="figure">
+                                        <img src="images/te1.jpg" class="figure-img img-fluid rounded-circle" alt="...">
+                                    </figure>
+                                    <h5 class="card-title">Coriss Ambady</h5>
+                                    <p class="card-text">Financial Analyst.</p>
+                                    <p class="">Fermentum massa justo sit amet risus morbi leo.</p>
+                                    <div class="d-flex flex-row mb-2 text-center link-offset-3">
+                                        <div class="p-1">
+                                            <i class="fa-brands fa-square-twitter" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-brands fa-facebook-f" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-solid fa-globe " id="icon"></i></div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-none p-2 mb-5 bg-body-tertiary rounded">
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        <img src="images/te2.jpg" class="figure-img img-fluid rounded-circle" alt="...">
+                                    </figure>
+                                    <h5 class="card-title">Cory Zamora</h5>
+                                    <p class="card-text">Financial Analyst.</p>
+                                    <p>Fermentum massa justo sit amet risus morbi leo.</p>
+                                    <div class="d-flex flex-row mb-2 text-center link-offset-3">
+                                        <div class="p-1"><i class="fa-brands fa-square-twitter" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-brands fa-facebook-f" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-solid fa-globe " id="icon"></i></div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-none p-2 mb-5 bg-body-tertiary rounded">
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        <img src="images/te3.jpg" class="figure-img img-fluid rounded-circle" alt="...">
+                                    </figure>
+                                    <h5 class="card-title">Sales Manager
+                                    </h5>
+                                    <p class="card-text">Sales Manager.</p>
+                                    <p>Fermentum massa justo sit amet risus morbi leo.</p>
+                                    <div class="d-flex flex-row mb-2 text-center link-offset-3">
+                                        <div class="p-1"><i class="fa-brands fa-square-twitter" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-brands fa-facebook-f" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-solid fa-globe " id="icon"></i></div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-none p-2 mb-5 bg-body-tertiary rounded">
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        <img src="images/te4.jpg" class="figure-img img-fluid rounded-circle" alt="...">
+                                    </figure>
+                                    <h5 class="card-title">Jackie Sanders</h5>
+                                    <p class="card-text">Jackie Sanders.</p>
+                                    <p>Fermentum massa justo sit amet risus morbi leo.</p>
+                                    <div class="d-flex flex-row mb-2 text-center link-offset-3">
+                                        <div class="p-1"><i class="fa-brands fa-square-twitter" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-brands fa-facebook-f" id="icon"></i></div>
+                                        <div class="p-1"><i class="fa-solid fa-globe " id="icon"></i></div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 ">
+                        <div class="col-md-12 ">
+                            <h2 class="">Our Solutions</h2>
+                            <h3 class="pt-2 our">We make your spending stress-free for you to have the perfect control.</h3>
+                            <p class="mt-3" >Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
+                                justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.</p>
+                        </div>
+                        <div class="d-flex flex-row mb-0">
+                            <div class="p-3"><i class="fa-solid fa-check" id="tick"></i></div>
+                            <div class="p-3"><p>Aenean quam ornare. Curabitur blandit</p></div>
+                            <div class="p-3"><i class="fa-solid fa-check" id="tick"></i></div>
+                            <div class="p-3"><p>Etiam porta euismod malesuada mollis.</p></div>
+                          </div>
+                          <div class="d-flex flex-row">
+                            <div class="p-3"><i class="fa-solid fa-check" id="tick"></i></div>
+                            <div class="p-3"><p>Nullam quis risus eget urna mollis ornare.</p></div>
+                            <div class="p-3"><i class="fa-solid fa-check" id="tick"></i></div>
+                            <div class="p-3"><p>Vivamus sagittis lacus vel augue rutrum.</p></div>
+                            
+                          </div>
+                    </div>
+                    <div class="col-md-7 mt-4 pt-4">
+                        <figure class="figure">
+                            <img src="images/i8.png" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="">
+        <div class="home">
+            <div class="container">
+                <div class="row mb-mb-0 ">
+                    <div class="col-md-6">
+                        <div class="row row-cols-1 row-cols-md-2 g-3">
+                            <div class="col">
+                                <div class="card shadow-none bg-body-tertiary rounded">
+                                    <div class="card-body  mt-3">
+                                        <p>“Cum sociis natoque penatibus et magnis dis parturient montes.”</p>
+                                        <h5 class="card-title">Coriss Ambady</h5>
+                                        <p class="card-text">Financial Analyst</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-none  p-2 bg-body-tertiary rounded">
+                                    <div class="card-body">
+                                        <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                            Vestibulum id ligula porta felis euismod.”</p>
+                                        <h5 class="card-title">Cory Zamora</h5>
+                                        <p class="card-text">Marketing Specialist</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-none  bg-body-tertiary rounded">
+                                    <div class="card-body">
+                                        <p>“Donec id elit non porta gravida at eget metus. Duis mollis est luctus
+                                            commodo nisi erat.”</p>
+                                        <h5 class="card-title">Barclay Widerski</h5>
+                                        <p class="card-text">Sales Specialist</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-none   bg-body-tertiary rounded">
+                                    <div class="card-body">
+                                        <p>“Nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo
+                                            pellentesque.”</p>
+                                        <h5 class="card-title">Jackie Sanders</h5>
+                                        <p class="card-text">Investment Planner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 two mt-5">
+                        <h2 class="pt-3">Our Community</h2>
+                        <h3 class="mt-4">Don't take our word for it. See what customers are saying about us.</h3>
+                        <p class="mt-4">Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque
+                            nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis
+                            interdum. Vestibulum id ligula porta felis euismod.</p>
+                            <button class="button01 mt-4"><span>Testimonials</span></button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row mb-mb-0 mb-5">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2>Our Pricing</h2>
+                            <h3>We offer great and premium prices.</h3>
+                            <p>Enjoy a free <span class="trial"> trial and experience the</span> full service. No credit card required!</p>
+                                <button class="button01 mt-4"><span>All Prices</span></button> 
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-sm-6 mb-3 mb-sm-0 ">
+                                    <div class="card  text-center shadow-none p-3 mb-5 bg-body-tertiary rounded">
+                                        <div class="card-body text-center">
+                                            <div class="price ">
+                                                <span class="price-currency fw-bold ">$</span>
+                                                <span class="price-value fw-bold fs-1">19</span>
+                                                <span class="price-duration fw-bold fs-5">yr</span>
+                                            </div>
+                                            <h5 class="card-title">Corporate Plan</h5>
+                                            <div class="d-flex flex-row intra">
+                                                <div class="p-2">
+                                                    <i class="fa-solid fa-check" id="tick-one"></i>
+                                                    <span class="fw-bold"><strong>5</strong> Projects</span>
+                                                </div>
+                                              </div>
+                                              <div class="d-flex flex-row intra">
+                                                <div class="p-2"><span>
+                                                    <i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                    <span class="fw-bold"><strong>100K</strong> API Access</span>
+                                                </div>
+                                              </div>
+
+                                              <div class="d-flex flex-row ">
+                                                <div class="p-2">
+                                                    <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                    <span class="fw-bold"><strong>200MB</strong> Storage</span>
+                                                </div>
+                                                
+                                              </div>
+                                              <div class="d-flex flex-row ">
+                                                <div class="p-2">
+                                                    <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                    <span class="fw-bold"><strong>Weekly</strong> Reports</span>
+                                                </div>
+                                               
+                                              </div>
+                                              <div class="d-flex flex-row ">
+                                                <div class="p-2">
+                                                    <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                    <span class="fw-bold"><strong>7/24</strong> Support</span>
+                                                </div>
+                                              </div>
+                                              <button class="button01 mt-4"><span>All Prices</span></button> 
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card  text-center shadow-none p-3 mb-5 bg-body-tertiary rounded">
+                                        <div class="card-body ">
+                                            <div class="price ">
+                                                <span class="price-currency fw-bold ">$</span>
+                                                <span class="price-value fw-bold fs-1">49</span>
+                                                <span class="price-duration fw-bold fs-5">mo</span>
+                                            </div>
+                                            <h5 class="card-title">Premium Plan</h5>
+                                           
+                                                <div class="d-flex flex-row">
+                                                    <div class="p-2"> <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                        <span class="fw-bold"><strong>5</strong> Projects</span></div>
+                                                  </div>
+                                                  <div class="d-flex flex-row ">
+                                                    <div class="p-2"> <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                        <span class="fw-bold"><strong>100K</strong> API Access</span></div>
+                                                   
+                                                  </div>
+                                                  <div class="d-flex flex-row ">
+                                                    <div class="p-2">  <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                        <span class="fw-bold"><strong>200MB</strong> Storage</span></div>
+                                                    
+                                                  </div>
+                                                  <div class="d-flex flex-row ">
+                                                    <div class="p-2">    <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                        <span class="fw-bold"><strong>200MB</strong>> Reports</span></div>
+                                                    
+                                                  </div>
+                                                  <div class="d-flex flex-row ">
+                                                    <div class="p-2">  <span><i class="fa-solid fa-check" id="tick-one"></i></span>
+                                                        <span class="fw-bold"><strong>7/24</strong> Support</span></div>
+                                                  </div>
+                                                  <button class="button01 mt-4"><span>All Prices</span></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6">
+                        <figure class="figure">
+                            <img src="images/i8.png" class="figure-img img-fluid rounded" alt="...">
+                        </figure>
+                    </div>
+                    <div class="col-md-5 pt-5">
+                        <h2>Let’s Talk</h2>
+                        <h3>Let's make something great together. We are trusted by over 5000+ clients.</h3>
+                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas
+                            faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                            nibh, ut fermentum massa justo sit amet risus.</p>
+                            <button class="button01 "><span>Join US</span></button> 
+                    </div>
+                    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 mt-5">
+                        <div class="col-sm-3 ">
+                            <figure class="figure footerfig">
+                                <img class="img-thumbnail" src="images/c1.png" class="figure-img img-fluid rounded" alt="...">
+                               
+                              </figure>
+                        </div>
+                        <div class="col-sm-3">
+                            <figure class="figure footerfig">
+                                <img class="img-thumbnail" src="images/c2.png" class="figure-img img-fluid rounded" alt="...">
+                               
+                              </figure>
+                        </div>
+                        <div class="col-sm-3">
+                            <figure class="figure footerfig">
+                                <img class="img-thumbnail" src="images/c3.png" class="figure-img img-fluid rounded" alt="...">
+                               
+                              </figure>
+                        </div>
+                        <div class="col-sm-3">
+                            <figure class="figure footerfig">
+                                <img class="img-thumbnail" src="images/c4.png" class="figure-img img-fluid rounded" alt="...">
+                               
+                              </figure>
+                        </div>
+                        <div class="col-sm-3">
+                            <figure class="figure footerfig">
+                                <img class="img-thumbnail" src="images/c4.png" class="figure-img img-fluid rounded" alt="...">
+                              </figure>
+                        </div>
+                        <div class="col-sm-3">
+                            <figure class="figure footerfig">
+                                <img class="img-thumbnail" src="images/c4.png" class="figure-img img-fluid rounded" alt="...">
+                              </figure>
+                    </div>
+                </div>
+                <div class="container  pt-5">
+                    <div class="row">
+                      <div class="col-md-8"> <h3 >Join our community by using 
+                        our services and grow your business.</h3> 
+                    </div>
+                 <div class="col-md-4 ms-auto text-end">
+                    <button class="button01 mt-4 button-last"><span>Join US</span></button>  </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="footer">
+            <div class="container">
+                <div class="row mb-mb-0 mb-5 pt-5">
+                      <div class="row">
+                        <div class="col-sm-3 ">
+                            <img   src="images/logo-light.png" alt="...">
+                              <p class=" pt-3">© 2024 Sandbox. <br class="hidden xl:block lg:block text-[#cacaca]">All rights reserved.
+                              </p>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Get in Touch</h5>
+                            <p>Moonshine St. 14/05 Light City, London, United Kingdom.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Learn More</h5>
+                            <ul class="list-unstyled lh-lg">
+                                <li class="link"><a  class="text-decoration-none" href="#"></a>About Us</li>
+                                <li class="link"><a href="#"></a>Our Story</li>
+                                <li class="link"><a href="#"></a>Projects</li>
+                                <li class="link"><a href="#"></a>Terms of Use</li>
+                                <li class="link"><a href="#"></a>Privacy Policy</li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Our Newsletter</h5>
+                            <p>Subscribe to our newsletter to get our news & deals delivered to you.</p>
+                            <div class="input-group input-group-lg">
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                <span class="btn btn-warning text-white icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" id="inputGroup-sizing-lg">Join</span>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>
+       
+
+
+       
+
+
+
+    document.addEventListener("DOMContentLoaded", function(){
+// make it as accordion for smaller screens
+             if (window.innerWidth > 992) {
+	document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+
+		everyitem.addEventListener('mouseover', function(e){
+
+    
+
+			let el_link = this.querySelector('a[data-bs-toggle]');
+
+			if(el_link != null){
+				let nextEl = el_link.nextElementSibling;
+				el_link.classList.add('show');
+				nextEl.classList.add('show');
+			}
+
+		});
+		everyitem.addEventListener('mouseleave', function(e){
+			let el_link = this.querySelector('a[data-bs-toggle]');
+
+			if(el_link != null){
+				let nextEl = el_link.nextElementSibling;
+				el_link.classList.remove('show');
+				nextEl.classList.remove('show');
+			}
+
+
+		})
+	});
+
+}
+// end if innerWidth
+}); 
+
+
+const accordionTitles = document.querySelectorAll(".accordionTitle");
+
+accordionTitles.forEach((accordionTitle) => {
+  accordionTitle.addEventListener("click", () => {
+    if (accordionTitle.classList.contains("is-open")) {
+      accordionTitle.classList.remove("is-open");
+    } else {
+      const accordionTitlesWithIsOpen = document.querySelectorAll(".is-open");
+      accordionTitlesWithIsOpen.forEach((accordionTitleWithIsOpen) => {
+        accordionTitleWithIsOpen.classList.remove("is-open");
+      });
+      accordionTitle.classList.add("is-open");
+    }
+  });
+});
+
+
+
+</script>
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
